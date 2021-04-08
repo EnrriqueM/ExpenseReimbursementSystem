@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.content
+{
+	width: 67%;
+	margin: auto;
+	padding: 15px;
+}
+
+@media screen and (max-width: 900px) 
+{
+  .content
+  {
+  	width: 100%;
+  	padding: 10px 10px 0 10px;
+  }
+}

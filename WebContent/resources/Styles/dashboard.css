@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+
+.table
+{
+	display: none;
+}
+
+
+#spinner
+{
+	display: none;
+}
+
+#msg
+{
+	display: none;
+}
+
+/* The sidebar menu */
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 125px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+  box-shadow: -5px 3px 3px grey;
+  display: none;
+}
+
+.sidenav h3 {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+}
+
+.sidenav li:hover {
+  color: #064579;
+}
+
+.content {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
