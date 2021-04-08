@@ -1,7 +1,7 @@
 # ExpenseReimbursementSystem
 Full Stack Project for a reimbursement system
 
-#Technologies Used
+# Technologies Used
 Java 1.8
 Apache Tomcat 9.0
 Log4j 1.2.17
@@ -15,7 +15,7 @@ HTML 5
 CSS 3
 Javascript ES6
 
-#Getting Started
+# Getting Started
 
 
 
